@@ -1,0 +1,48 @@
+WebAPI Devloper
+
+1. How to develop a WebAPI Solution (REST) - Middleware
+2. How to Consume a WebAPI solution (Frontend)
+
+REST Standards
+Collections (List)
+Entity Framework Core for Data access
+DI - dependency injection
+Repository Pattern 
+
+Swagger (to test webapi)
+--------------------------------------------------------------------------------
+
+	Applications
+1. Sample webapi to understand the technology 
+	Model and Controller 
+	Routing
+2. WebAPI application with In memory collection - CRUD operations
+3. WebAPi application with EF core on SQL Server - CRUD operations
+
+4. Consme them in ASP.net MVC 
+	Client Side calls - fetch Api
+	Server Side calls - HttpClient
+
+
+Softwares 
+
+Visual Studio 2019 or above (2022 for me)
+SQL Server 2014 or above with SSMS or Azure data studio 
+Git - to download all the code from my account
+
+------
+if you do not have them installed use - Cloud Lab
+
+-------------------------------------------------
+
+Good at programming fundamenatals - OOPS
+HTML, CSS and Javascript
+
+
+
+
+
+
+
+
+

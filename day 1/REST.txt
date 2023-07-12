@@ -1,0 +1,15 @@
+
+
+
+
+
+
+
+		--W3C has given us WebServices which generalized the data for all the fraeworks/language/platform/os etc...
+
+		--WebService were exchangeing - XML based SOAP messages - this are very heavy 
+
+		--Thus W3C and ECMA came with a new data exchange format - which is 200% lighter and faster than SOAP
+			and named the standard as REST - Representational State Transfer
+
+		Microsoft went ahead, implementted this standards, created compilers, framework, classes, methods, properties, exceptions and added 		it to .net family as WebAPI
