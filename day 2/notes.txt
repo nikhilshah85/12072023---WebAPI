@@ -1,0 +1,41 @@
+
+
+
+		Tomorrow : API with Collection on Objects (in Memory collection API) - with CRUD Operations
+
+		Task:
+	in the same application, add a new controller ProductsController
+
+		have a list of Products (same like we had for friends)
+ 
+		we want to share the below details
+
+			list of all products
+		http://localhost:portno/products/list
+
+			get product by Name
+		http://localhost:portno/products/list/name
+	
+			get product by index
+		http://localhost:portno/products/list/index
+		
+			Add new Product
+		http://localhost:portno/products/list/add
+
+			Add To Cart
+		http://localhost:portno/products/cart/add/{name} -- hint add a List variable cart and add the prodct from 			url 			to cart
+
+			Get Products in cart
+		http://localhost:portno/cart
+
+			Remove - Delete
+		http://localhost:portno/products/list/remove/{id}
+			
+			Remove - Delete
+		http://localhost:portno/products/carvc t/remove/{name}
+
+			Edit the product
+		http://localhost:portno/products/list/edit/{idx}
+
+		
+	

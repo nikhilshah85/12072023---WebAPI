@@ -1,0 +1,3 @@
+1. Test the api - make sure all the crud operations are working well
+2. Add a new Model, deptInfo
+3. Create an API to work with the data and perform CRUD operations
