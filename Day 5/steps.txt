@@ -1,0 +1,30 @@
+API with database - SQL Server
+we can below below frameworks for the same
+
+1. OLEDB
+2. ADO.Net
+3. Entity framework Core
+
+		We will use EF Core
+
+Step 1: Create a new database and add table with data (make sure table has a primary key)
+step 2: Create a new WebAPI project
+step 3: Add EF Nuget packages (4 packages in a sequence)
+	
+	Microsoft.EntityFrameworkCore.Tools
+	Microsoft.EntityFrameworkCore.Design
+	Microsoft.EntityFrameworkCore
+	Microsoft.EntityFrameworkCore.SqlServer
+
+step 4: Create poco classes with EF Core command - Scaffold-DbContext "connection string" -outputDir -Provider
+	Tools -> Nuget package manager ->package manager console
+
+step 5: build the application
+
+step 6: Add a new controller with EF Core
+
+step 7: by default it will use DI - dependency injection(halfy configured) - we will remove that 
+		instantiate new object of DBContext - line 16
+	comment the constructor
+
+step 8: test your api - build and run the app
