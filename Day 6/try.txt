@@ -1,0 +1,20 @@
+Try :
+
+
+Make an API call to below URL useing fetch api 
+https://jsonplaceholder.typicode.com/users
+
+Display below details in a table
+id, name, username, email, city, lat, lon, CompanyName, CompanyCatchPhase
+
+Hint 
+data[i].company.name
+data[i].company.catchphase
+
+data[i].address.city
+data[i].address.geo.lat
+
+--------------
+Make a call to below url by passing product Id from textbox / user and display data along with Image
+
+https://fakestoreapi.com/products/1

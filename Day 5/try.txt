@@ -1,6 +1,6 @@
 Try :
 
-	create a new database - shoppingDB
+	create a new database - shoppingDB      bbb      cb 
 
 	add a table productsList
 		pid, pName, pCategory, pPrice, pIsInStock, pImage (add a image URL from google) as a value to the column
@@ -8,3 +8,5 @@ Try :
 		add 10 items to the table
 
 	make the api available to the users
+
+	Tomorrow : Consume API in MVC application

@@ -1,0 +1,23 @@
+Try : useing HttpClient
+
+Make a call to albums
+https://jsonplaceholder.typicode.com/albums
+
+Display the data in a table
+
+----------------------------------------------
+
+Make a call to 
+
+https://fakestoreapi.com/products/1
+
+display the data along with image
+
+-----------------------------------
+Additionally for more practice
+
+add a new view, add a dropdown 
+	Category
+	["electronics","jewelery","men's clothing","women's clothing"]
+
+when use chosses a category display the data for that category

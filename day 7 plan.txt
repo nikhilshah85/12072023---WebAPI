@@ -1,0 +1,4 @@
+Tomorrow :
+
+1. DI - dependency injection
+2. Understand and configure CORS and make calls to our own api

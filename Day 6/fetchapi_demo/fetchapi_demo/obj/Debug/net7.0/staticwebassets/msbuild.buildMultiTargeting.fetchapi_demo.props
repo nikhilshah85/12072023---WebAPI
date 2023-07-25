@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\fetchapi_demo.props" />
+</Project>

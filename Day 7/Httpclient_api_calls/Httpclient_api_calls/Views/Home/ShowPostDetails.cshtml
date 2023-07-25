@@ -1,0 +1,16 @@
+﻿
+
+<h1 style="text-align:center"> Post Details from JSONPlaceHolder</h1>
+
+<table class="table table-bordered">
+    @foreach (var item in ViewBag.post)
+    {
+        <tr>
+            <td> @item.id </td>
+            <td> @item.userId </td>
+            <td> @item.title </td>
+            <td> @item.body </td>
+
+        </tr>
+    }
+</table>

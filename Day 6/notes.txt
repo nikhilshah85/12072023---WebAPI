@@ -1,0 +1,11 @@
+WebAPI developer
+1. Creates an API ( We did it with collections and database)
+2. Consume an API in frontend application 
+	a. Client Side Consumption
+		fetch api (a standard by W3C - an api built into the modern browsers)
+			returns a promise - script it useing try(then) catch block
+
+			fastest way to get the data - less secure
+	b. Server Side Consumption
+		HttpClient - also a W3C standard 
+			Safest way to get the data - little bit slower
