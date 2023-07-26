@@ -1,0 +1,57 @@
+
+
+
+
+
+
+
+
+
+
+
+		
+
+1. DI - dependency injection
+2. Understand and configure CORS and make calls to our own api
+
+	
+------------------------------------------------------------------
+	infrastructure - revisit the steps we have so far to implement and understand the above topics
+		Time : 20 mins - 11:40 - 12:00
+
+	1. create a database shoppingDB 
+	2. add a table products with pId primary key, pName, pPrice, pCategory, pIsInStock - add 5 products
+	3. add a table customers with cId primary key,cName, cCity, cWalletBalance, cIsActive - add 5 customers
+	4. create a new WebProject - shoppingAPI
+	5. add EF Core nuget packages (4 packages)
+	6. download poco classes - by running Scaffold-DbContext command
+
+		step 7: understand and implement DI in the project
+
+	8. Create a new MVC Application
+	9. Make a call to your webapi created above and display products in a table format ( use fetchapi)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
