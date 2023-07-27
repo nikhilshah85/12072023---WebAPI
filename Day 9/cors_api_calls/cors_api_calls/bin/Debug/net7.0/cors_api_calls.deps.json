@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "cors_api_calls/1.0.0": {
+        "runtime": {
+          "cors_api_calls.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "cors_api_calls/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿
+
+<h1> Employee Details from API calls </h1>
+
+<button class="btn btn-primary" onclick="getEmployees()"> Show Employees </button>
+
+<table class="table table-bordered"></table>
+
+
+<script>
+
+    function getEmployees()
+    {
+        var url = "https://localhost:7201/api/employee";
+
+        fetch(url).then(dataFormat => dataFormat.json())
+                  .then(data =>{
+                    alert('Success');
+                  })
+                  .catch(err => {
+                      console.log(err);
+                      alert('Errorrrrrrrr');
+                  })
+    
+    }
+
+
+</script>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\cors_api_calls.props" />
+</Project>

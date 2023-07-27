@@ -1,0 +1,63 @@
+Today :
+
+1. Configure Cors for our application
+2. Consume our own webapi and make Get and post request
+
+------------------------------------------------------------------------------------------
+Steps
+
+1. Create a new database EmployeeDB - add a table employeeDetails - empNo,empName,empDesignation,empSalary,empIsPermenant - add 5 records
+2. Create a new WebAPI application 
+3. Use EF Core, add nuget packages, download poco classes for above database
+4. Add a controller with EF for above
+5. configure DI - to use SingleTon object of database context
+6. run and test the project
+----------------------------------
+
+7. Create a new MVC application - make a call to above api to get all the employees and display them in a table
+
+	when we made a call we got below error
+
+	Access to fetch at 'https://localhost:7201/api/employee' from origin 'https://localhost:7090' has been blocked by CORS policy: No 	'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's 	mode to 'no-cors' to fetch the resource with CORS disabled.
+
+8. Configure Cors
+
+	a. add a nuget package for cors
+		Microsoft.AspNetCore.Cors
+	b. confiure CORS service in program.cs
+		builder.Services.AddCors(policy =>
+		{
+		    policy.AddDefaultPolicy(bydefault =>
+		    {
+		        bydefault.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+		    });
+		});
+
+	c. add Cors Middleware in program.cs
+	
+		app.UseCors();
+
+9. build the application, run the application again, make a call it will be allowed
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
